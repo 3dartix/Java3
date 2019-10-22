@@ -51,7 +51,8 @@ public class AuthService {
             //AddMessageToHistory("Боб3", "сообщение3");
 
             //GetHistoryFromBD();
-
+            //DeleteAllMessageInHistoryByNick("nick1");
+            //ChangeRecordInHistoryByDatetime("2019-10-22 09:34:14");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -145,4 +146,16 @@ public class AuthService {
         return listMessage;
     }
 
+    public static void DeleteAllMessageInHistoryByNick(String name) throws SQLException {
+        pstmt = connection.prepareStatement("delete from history where name=?");
+        pstmt.setString(1, name);
+        pstmt.executeUpdate();
+    }
+
+    public static void ChangeRecordInHistoryByDatetime(String datetime) throws SQLException {
+        pstmt = connection.prepareStatement("update history set message=? where datetime=?");
+        pstmt.setString(1, "что-то новое");
+        pstmt.setString(2, datetime);
+        pstmt.executeUpdate();
+    }
 }

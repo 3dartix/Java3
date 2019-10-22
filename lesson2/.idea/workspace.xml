@@ -2,33 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Client/MiniStage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Client/PersonalController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Client/personal.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson7/mainDB.db" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson7/mainDB.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson7/out/production/lesson4/Server/ClientHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson7/out/production/lesson4/Server/ClientHandler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson7/out/production/lesson4/Server/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson7/out/production/lesson4/Server/ClientHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainDB.db" beforeDir="false" afterPath="$PROJECT_DIR$/mainDB.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lesson4/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson4/CSS/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lesson4/Client/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson4/Client/Controller$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lesson4/Client/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson4/Client/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lesson4/Client/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson4/Client/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lesson4/META-INF/lesson4.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lesson4/Server/AuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson4/Server/AuthService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lesson4/Server/ClientHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson4/Server/ClientHandler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lesson4/Server/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson4/Server/ClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lesson4/Server/MainServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson4/Server/MainServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lesson4/Server/MainServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson4/Server/MainServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Server/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/MainServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/MainServer.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,11 +67,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Server/MainServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="88" column="9" lean-forward="true" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
+            <state relative-caret-position="122">
+              <caret line="53" column="37" lean-forward="true" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,7 +82,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Server/ClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1205">
+            <state relative-caret-position="2331">
               <caret line="121" column="16" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -117,7 +94,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Client/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="929">
+            <state relative-caret-position="2394">
               <caret line="131" column="50" selection-start-line="131" selection-start-column="50" selection-end-line="131" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -126,18 +103,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Server/AuthService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="62" column="23" lean-forward="true" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+            <state relative-caret-position="121">
+              <caret line="126" column="18" lean-forward="true" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#542#543#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
-                <element signature="e#3920#3929#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,7 +118,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Client/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
+            <state relative-caret-position="420">
               <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -158,7 +130,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Client/MiniStage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4">
+            <state relative-caret-position="252">
               <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -178,19 +150,19 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Client/sample.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="3087">
               <caret line="147" column="43" selection-start-line="147" selection-start-column="32" selection-end-line="147" selection-end-column="43" />
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CSS/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="84" column="29" lean-forward="true" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
+            <state relative-caret-position="1764">
+              <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -226,11 +198,11 @@
         <option value="$PROJECT_DIR$/src/Client/personal.fxml" />
         <option value="$PROJECT_DIR$/src/Client/MiniStage.java" />
         <option value="$PROJECT_DIR$/src/Client/PersonalController.java" />
-        <option value="$PROJECT_DIR$/src/Server/AuthService.java" />
         <option value="$PROJECT_DIR$/src/Server/ClientHandler.java" />
         <option value="$PROJECT_DIR$/src/CSS/style.css" />
         <option value="$PROJECT_DIR$/src/Client/Controller.java" />
         <option value="$PROJECT_DIR$/src/Server/MainServer.java" />
+        <option value="$PROJECT_DIR$/src/Server/AuthService.java" />
       </list>
     </option>
   </component>
@@ -241,7 +213,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="298" />
     <option name="y" value="23" />
     <option name="width" value="1139" />
@@ -257,123 +229,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MyChat" type="58d84e3e:PackageViewProjectNode" />
-              <item name="lesson4" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="MyChat" type="58d84e3e:PackageViewProjectNode" />
-              <item name="lesson4" type="616d4139:PackageViewModuleNode" />
-              <item name="Client" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="lesson8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lesson8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lesson8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lesson8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lesson8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lesson8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lesson8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lesson8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CSS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lesson8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lesson8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lesson8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lesson8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="AuthService.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="lesson8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="lesson8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="lesson8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="jfxrt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lesson8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="jfxrt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javafx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lesson8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="jfxrt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javafx" type="462c0819:PsiDirectoryNode" />
-              <item name="scene" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lesson8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="jfxrt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javafx" type="462c0819:PsiDirectoryNode" />
-              <item name="scene" type="462c0819:PsiDirectoryNode" />
-              <item name="control" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lesson8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lesson8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lesson8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
           <expand>
@@ -416,6 +271,57 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lesson2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lesson2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lesson2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lesson2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lesson2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="AuthService.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MyChat" type="58d84e3e:PackageViewProjectNode" />
+              <item name="lesson4" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="MyChat" type="58d84e3e:PackageViewProjectNode" />
+              <item name="lesson4" type="616d4139:PackageViewModuleNode" />
+              <item name="Client" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -428,7 +334,7 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571737934439" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571752786502" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -557,8 +463,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MainServer" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MainServer" />
       <item itemvalue="Application.ServerStart" />
     </list>
     <recent_temporary>
@@ -599,8 +505,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.14750378" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.15204236" />
       <window_info id="Structure" order="1" weight="0.24962178" />
       <window_info id="Favorites" order="2" weight="0.32995737" />
       <window_info id="Designer" order="3" />
@@ -609,7 +516,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3535188" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26022914" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21931261" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -619,7 +526,7 @@
       <window_info anchor="bottom" id="Problems" order="9" />
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="12" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="14" />
       <window_info anchor="bottom" id="CheckStyle" order="15" />
@@ -702,12 +609,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Client/personal.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -716,9 +623,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server/MainServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="53" column="37" lean-forward="true" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server/ClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2331">
+          <caret line="121" column="16" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Client/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2394">
+          <caret line="131" column="50" selection-start-line="131" selection-start-column="50" selection-end-line="131" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Client/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
+        <state relative-caret-position="420">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -728,25 +665,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Client/MiniStage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
+        <state relative-caret-position="252">
           <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server/AuthService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="62" column="23" lean-forward="true" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#3920#3929#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -759,44 +681,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Client/sample.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="3087">
           <caret line="147" column="43" selection-start-line="147" selection-start-column="32" selection-end-line="147" selection-end-column="43" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CSS/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="84" column="29" lean-forward="true" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
+        <state relative-caret-position="1764">
+          <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server/ClientHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/Server/AuthService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1205">
-          <caret line="121" column="16" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="929">
-          <caret line="131" column="50" selection-start-line="131" selection-start-column="50" selection-end-line="131" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server/MainServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="88" column="9" lean-forward="true" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
+        <state relative-caret-position="121">
+          <caret line="126" column="18" lean-forward="true" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
