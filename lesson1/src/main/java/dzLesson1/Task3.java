@@ -62,20 +62,17 @@ class Box <T extends Fruit> {
 
 public class Task3 {
     public static void main(String[] args) {
-        Box<Apple> box = new Box<>();
-        box.FruitAdd(new Apple(1), 10);
-        System.out.println("Ящик с яблоками: " + box.GetWeight());
+        Box<Fruit> boxFruit = new Box<>();
+        Box<Fruit> boxFruit2 = new Box<>();
+        boxFruit.FruitAdd(new Apple(1), 10);
+        boxFruit.ReplaceBox(boxFruit2);
 
-        Box<Orange> box2 = new Box<>();
-        box2.FruitAdd(new Orange(2), 10);
-        System.out.println("Ящик с апельсинами: " + box2.GetWeight());
+        System.out.println("коробка1 " + boxFruit.GetWeight());
+        System.out.println("коробка2 " + boxFruit2.GetWeight());
 
-        System.out.println(box.Compare(box2));
+        boxFruit.FruitAdd(new Orange(2), 30);
+        System.out.println("коробка1 " + boxFruit.GetWeight());
+        System.out.println("коробка2 " + boxFruit2.GetWeight());
 
-        Box<Apple> box3 = new Box<>();
-        box.ReplaceBox(box3);
-
-        System.out.println("box " + box.GetWeight());
-        System.out.println("box3 " + box3.GetWeight());
     }
 }

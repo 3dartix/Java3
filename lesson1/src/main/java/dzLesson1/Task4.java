@@ -35,6 +35,11 @@ public class Task4 {
             }
         }
 
+        //еще одна реализация задачи плоский список в hashMap
+        list.forEach(item -> hashMap.computeIfAbsent(item.name, k -> new ArrayList<>()).add(item.id));
+        // computeIfAbsent лямбда метод аналог getOrDefolt, только более гибкий в теле мы например можем объявить новый лист
+        //создает новую коллекцию или возвращает уже созданный
+
         hashMap.forEach((key, arr) -> {
             System.out.println(key + ": " + arr);
         });
