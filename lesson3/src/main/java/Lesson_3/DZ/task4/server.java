@@ -36,8 +36,10 @@ class MainServer{
 
 
             FileOutputStream fos = new FileOutputStream("dz/task4/receivedFile.my");
-
-            while (in.read() != -1) {
+            while (true) {
+                if(in.read() == -1) {
+                    break;
+                }
                 System.out.println(in.read());
             }
 
