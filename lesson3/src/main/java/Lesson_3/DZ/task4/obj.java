@@ -10,4 +10,8 @@ public class obj implements Serializable {
         this.id = id;
         this.name = name;
     }
+
+    public void Info(){
+        System.out.println(id + " " + name);
+    }
 }

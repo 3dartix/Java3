@@ -27,6 +27,7 @@ public class client {
             out.write(fis.read());
             System.out.println(fis.read());
         }
+        //out.write(-1);
         fis.close();
 
         while (true){

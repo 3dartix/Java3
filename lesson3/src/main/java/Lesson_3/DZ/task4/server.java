@@ -25,7 +25,6 @@ class MainServer{
             System.out.println("Сервер запущен!");
 
 
-
             while (true) {
                 socket = server.accept();
                 System.out.println("Клиент подключился!");
@@ -36,16 +35,15 @@ class MainServer{
 
 
             FileOutputStream fos = new FileOutputStream("dz/task4/receivedFile.my");
-            while (true) {
-                if(in.read() == -1) {
-                    break;
-                }
+            //byte[] bt = new byte[1024];
+            while ((in.read()) > 0) {
+                fos.write(in.read());
                 System.out.println(in.read());
             }
 
-
-            System.out.println("все");
             fos.close();
+            System.out.println("все");
+
 
             ObjectInputStream ios = new ObjectInputStream( new FileInputStream("dz/task4/receivedFile.my"));
             try {
