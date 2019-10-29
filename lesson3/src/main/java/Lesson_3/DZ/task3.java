@@ -37,12 +37,15 @@ public class task3 {
     void ShowPage() throws IOException {
         raf.seek(curNumberPage * symbolCount);
 
-        for (int i = 0; i < symbolCount; i++) {
-            if(raf.read() == -1){
-                System.out.println("\n\nКнига закончена.");
-                break;
-            }
-            System.out.print((char)raf.read());
-        }
+        byte[] barr = new byte[1800];
+        raf.read(barr);
+        System.out.println(new String(barr));
+//        for (int i = 0; i < symbolCount; i++) {
+//            if(raf.read() == -1){
+//                System.out.println("\n\nКнига закончена.");
+//                break;
+//            }
+//            System.out.print((char)raf.read());
+//        }
     }
 }

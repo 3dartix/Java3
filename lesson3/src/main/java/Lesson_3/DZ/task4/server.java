@@ -16,8 +16,7 @@ class MainServer{
     ServerSocket server = null;
     Socket socket = null;
 
-    private DataInputStream in; //входящий поток
-    private DataOutputStream out; //исходящий поток
+    private DataInputStream dis; //входящий поток
 
     public MainServer(){
         try {
@@ -28,17 +27,23 @@ class MainServer{
             while (true) {
                 socket = server.accept();
                 System.out.println("Клиент подключился!");
-                in = new DataInputStream(socket.getInputStream());
-                out = new DataOutputStream(socket.getOutputStream());
+                dis = new DataInputStream(socket.getInputStream());
                 break;
             }
 
 
             FileOutputStream fos = new FileOutputStream("dz/task4/receivedFile.my");
-            //byte[] bt = new byte[1024];
-            while ((in.read()) > 0) {
-                fos.write(in.read());
-                System.out.println(in.read());
+            byte[] buffer = new byte[4096];
+            int filesize = 15123; //
+            int read = 0;
+            int totalRead = 0;
+            int remaining = filesize;
+
+            while((read = dis.read(buffer, 0, Math.min(buffer.length, remaining))) > 0) {
+                totalRead += read;
+                remaining -= read;
+                System.out.println("read " + totalRead + " bytes.");
+                fos.write(buffer, 0, read);
             }
 
             fos.close();
@@ -55,15 +60,13 @@ class MainServer{
             }
 
             System.out.println("Файл получен, закрываем");
-            out.writeUTF("/ok");
 
 
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
             try {
-                in.close();
-                out.close();
+                dis.close();
                 socket.close();
             } catch (IOException e) {
                 e.printStackTrace();

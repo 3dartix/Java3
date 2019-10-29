@@ -9,12 +9,12 @@ public class client {
 
     Socket socket;
     DataInputStream in; //входящий поток
-    DataOutputStream out; //исходящий поток
+    DataOutputStream dos; //исходящий поток
 
     public client () throws IOException {
         socket = new Socket(IP_ADRESS, PORT);
         in = new DataInputStream(socket.getInputStream());
-        out = new DataOutputStream(socket.getOutputStream());
+        dos = new DataOutputStream(socket.getOutputStream());
 
         //сеарилиац.
 //        obj obj = new obj(1, "Bob");
@@ -23,23 +23,14 @@ public class client {
 //        oos.close();
 
         FileInputStream fis = new FileInputStream("dz/task4/obj.my");
-        while (fis.read() != -1){
-            out.write(fis.read());
-            System.out.println(fis.read());
+        byte[] buffer = new byte[4096];
+        while (fis.read(buffer) > 0) {
+            dos.write(buffer);
         }
-        //out.write(-1);
         fis.close();
-
-        while (true){
-            System.out.println("Ждем...");
-            String str = in.readUTF();
-            if(str.startsWith("/ok")) {
-                break;
-            }
-        }
+        dos.close();
 
         in.close();
-        out.close();
         socket.close();
 
     }
