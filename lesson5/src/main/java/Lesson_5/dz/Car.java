@@ -68,6 +68,7 @@ public class Car implements Runnable {
             }
             cdl.countDown();
 
+
             try {
                 cdl.await();
             } catch (InterruptedException e) {
