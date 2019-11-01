@@ -1,7 +1,5 @@
 package dzLesson1;
 
-import javafx.collections.transformation.SortedList;
-
 import java.util.*;
 
 class SomeClass {
@@ -36,6 +34,11 @@ public class Task4 {
                 hashMap.get(el.name).add(el.id);
             }
         }
+
+        //еще одна реализация задачи плоский список в hashMap
+        list.forEach(item -> hashMap.computeIfAbsent(item.name, k -> new ArrayList<>()).add(item.id));
+        // computeIfAbsent лямбда метод аналог getOrDefolt, только более гибкий в теле мы например можем объявить новый лист
+        //создает новую коллекцию или возвращает уже созданный
 
         hashMap.forEach((key, arr) -> {
             System.out.println(key + ": " + arr);
