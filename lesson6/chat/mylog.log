@@ -1,0 +1,33 @@
+11-04-2019	19:30:18	INFO	Сервер запущен!
+11-04-2019	19:30:18	CONFIG	new client: /127.0.0.1:63829
+11-04-2019	19:30:18	INFO	client try auth: /127.0.0.1:63829
+11-04-2019	19:30:18	INFO	entered an invalid login or password: /127.0.0.1:63829
+11-04-2019	19:30:18	INFO	client try auth: /127.0.0.1:63829
+11-04-2019	19:30:18	INFO	client auth ok: /127.0.0.1:63829
+11-04-2019	19:30:18	INFO	client received a nick: /127.0.0.1:63829
+11-04-2019	19:30:18	INFO	received a symbol /w: /127.0.0.1:63829
+11-04-2019	19:30:18	INFO	Closed DataOutputStream: /127.0.0.1:63829
+11-04-2019	19:30:18	INFO	Closed DataInputStream: /127.0.0.1:63829
+11-04-2019	19:30:18	INFO	Closed DataInputStream: /127.0.0.1:63829
+11-04-2019	19:30:18	CONFIG	new client: /127.0.0.1:63844
+11-04-2019	19:30:18	INFO	client try auth: /127.0.0.1:63844
+11-04-2019	19:30:18	INFO	entered an invalid login or password: /127.0.0.1:63844
+11-04-2019	19:30:18	INFO	client try auth: /127.0.0.1:63844
+11-04-2019	19:30:18	INFO	client auth ok: /127.0.0.1:63844
+11-04-2019	19:30:18	INFO	client received a nick: /127.0.0.1:63844
+11-04-2019	19:30:18	CONFIG	new client: /127.0.0.1:63851
+11-04-2019	19:30:18	INFO	client try auth: /127.0.0.1:63851
+11-04-2019	19:30:18	INFO	entered an invalid login or password: /127.0.0.1:63851
+11-04-2019	19:30:18	INFO	client try auth: /127.0.0.1:63851
+11-04-2019	19:30:18	INFO	client auth ok: /127.0.0.1:63851
+11-04-2019	19:30:18	INFO	client received a nick: /127.0.0.1:63851
+11-04-2019	19:30:18	INFO	received a symbol /w: /127.0.0.1:63851
+11-04-2019	19:30:18	INFO	received a symbol /end: /127.0.0.1:63851
+11-04-2019	19:30:18	INFO	Closed DataOutputStream: /127.0.0.1:63851
+11-04-2019	19:30:18	INFO	Closed DataInputStream: /127.0.0.1:63851
+11-04-2019	19:30:18	INFO	Closed DataInputStream: /127.0.0.1:63851
+11-04-2019	19:30:18	INFO	received a symbol /end: /127.0.0.1:63844
+11-04-2019	19:30:18	INFO	Closed DataOutputStream: /127.0.0.1:63844
+11-04-2019	19:30:18	INFO	Closed DataInputStream: /127.0.0.1:63844
+11-04-2019	19:30:18	INFO	Closed DataInputStream: /127.0.0.1:63844
+11-04-2019	19:35:25	INFO	Сервер запущен!
