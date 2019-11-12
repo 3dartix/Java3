@@ -1,7 +1,5 @@
 package dzLesson1;
 
-import javafx.collections.transformation.SortedList;
-
 import java.util.*;
 
 class SomeClass {
